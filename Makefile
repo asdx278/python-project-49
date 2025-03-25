@@ -9,3 +9,6 @@ build:
 
 package-install:
 	uv tool install dist/*.whl
+
+package-install-force:
+	uv tool install --force dist/hexlet_code-0.3.0-py3-none-any.whl
