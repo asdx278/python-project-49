@@ -13,6 +13,6 @@ def game():
         elements_progression.append(new_element)
     correct_answer = random.choice(elements_progression)
     question = ' '.join(str(elem) for elem in elements_progression)
-    question = question.replace(str(correct_answer), '..')
+    question = question.replace(str(correct_answer), '..', 1)
 
     return question, str(correct_answer)
