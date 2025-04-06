@@ -11,7 +11,7 @@ package-install:
 	uv tool install dist/*.whl
 
 package-install-force:
-	uv tool install --force dist/hexlet_code-0.7.0-py3-none-any.whl
+	uv tool install --force dist/hexlet_code-0.8.0-py3-none-any.whl
 
 lint:
 	uv run ruff check brain_games
