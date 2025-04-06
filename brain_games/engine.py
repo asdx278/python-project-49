@@ -18,7 +18,7 @@ def engine(game):
         else:
             print(f'\'{user_answer}\' is wrong answer ;(. Correct answer was \
                   \'{correct_answer}\'')
-            print(f'Let\'s try again, {user_name}')
+            print(f'Let\'s try again, {user_name}!')
             break
     if user_score == 3:
         print(f'Congratulations, {user_name}!')
