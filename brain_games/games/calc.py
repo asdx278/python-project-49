@@ -2,6 +2,7 @@ import random
 
 RULE = 'What is the result of the expression?'
 
+
 def game():
     first_number = random.randrange(100)
     second_number = random.randrange(100)

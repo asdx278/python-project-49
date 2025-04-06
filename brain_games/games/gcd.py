@@ -1,9 +1,7 @@
-import random
 import math
+import random
 
 RULE = 'Find the greatest common divisor of given numbers.'
-
-
 
 
 def game():

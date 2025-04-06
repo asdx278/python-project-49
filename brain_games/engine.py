@@ -1,5 +1,6 @@
 import prompt
 
+
 def engine(game):
     COUNT_ROUND = 3
     user_score = 0
@@ -15,7 +16,8 @@ def engine(game):
             user_score += 1
             print('Correct!')
         else:
-            print(f'\'{user_answer}\' is wrong answer ;(. Correct answer was \'{correct_answer}\'')
+            print(f'\'{user_answer}\' is wrong answer ;(. Correct answer was \
+                  \'{correct_answer}\'')
             print(f'Let\'s try again, {user_name}')
             break
     if user_score == 3:
